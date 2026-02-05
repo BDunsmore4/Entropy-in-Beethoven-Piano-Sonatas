@@ -1,0 +1,136 @@
+setwd('~/Bridge/Research/Data/When-in-Rome/Corpus/Piano_Sonatas/Beethoven,_Ludwig_van/')
+
+library(dplyr)
+library(stringr)
+library(readr)
+library(humdrumR)
+
+sections <- read_csv('~/Downloads/forms.csv')
+
+getSections <- function(Piece, Movement) {
+  piece <- str_replace(Piece, 'Op0*','Op.') |>
+    str_remove('\\(.*\\)') |>
+    str_replace('_No*', ' No.')
+  piece <- paste0(piece,', Movement ', Movement |> str_remove_all('/'))
+  
+  secpiece <- sections$piece |>
+    str_remove('Piano[^,]*, ') |>
+    str_remove('\\(.*\\)') |> 
+    str_replace('op', 'Op') |> 
+    str_replace('no', 'No') 
+  sections[which(secpiece == piece), ]
+}
+
+filenames <- dir(recursive = TRUE, pattern = '.*DCML*')
+
+files <- lapply(filenames, readLines)
+
+parseFile <- function(lines, fn) {
+  lines <- lines[grepl('^m[0-9]', lines)]
+  
+  measure <- lines |> str_replace(' .*', '') |> str_replace('^m', '') |> as.numeric()
+  chords <- lines |> str_replace('^m[^ ]* ', '')
+  
+  
+  
+  tib <- Map(\(m, ch)  parseMeasure(m, ch), measure, strsplit(chords, split = ' ')) |> do.call(what = 'rbind')
+  
+  tib$Filename <- fn
+  tib |> group_by(Filename) |> 
+    mutate(Key = ditto(Key), Beat = ditto(Beat)) |> 
+    ungroup()  |> filter(!str_detect(Chord, '^[bm][0-9]|^[a-zA-Z].*:'))
+  
+}
+
+parseMeasure <- function(m, chords) {
+  key <- str_extract(chords, '^[^:]*:')
+  beat <- str_extract(chords, '^b[0-9].*') |> str_remove('^b')
+  
+  
+  tibble(Measure = m, Chord = ifelse(is.na(key) | is.na(beat), chords), Key = key, Beat = beat)
+  
+}
+
+data <- Map(parseFile, files, filenames) |> 
+  do.call(what = 'rbind') |>
+  mutate(Piece = str_extract(Filename, '^Op[^/]*'),
+         Movement = str_extract(Filename, '\\/[1-6]\\/'))
+
+
+
+data |> group_by(Filename) |>
+  mutate(NextChord = lag(Chord, -1), NextKey = lag(Key, -1),
+         NNextChord = lag(Chord, -2), NNextKey = lag(Key, -2),
+         NNNextChord = lag(Chord, -3), NNNextKey = lag(Key, -3)) |>
+  ungroup() -> data
+
+
+triadre <-  '[IiVvoø]+|Ger|Fr'
+ofre <- '(/.*)+'
+simplify <- function(x) paste0(str_extract(x, triadre), str_extract(x, ofre))
+data |> mutate(Triad = str_extract( Chord, triadre),
+               NextTriad = str_extract(NextChord, triadre),
+               NNextTriad = str_extract(NNextChord, triadre),
+               NNNextTriad = str_extract(NNNextChord, triadre),
+               SameKey = Key == NextKey) -> data
+
+global1grams <- with(data, table(Triad, NextTriad, as.character(SameKey)))
+global4grams <- with(data, table(Triad, NextTriad, NNextTriad, NNNextTriad, as.character(SameKey)))
+
+global1grams <- prop.table(global1grams, margin=2:3)
+global4grams <- prop.table(global4grams, margin=2:5)
+
+# Information content
+
+data |> mutate(IC_1gram = log(global1grams[cbind(Triad, NextTriad, SameKey)], base = 2),
+               IC_4gram = log(global4grams[cbind(Triad, NextTriad, NNextTriad, NNNextTriad, SameKey)], base = 2)) -> data
+
+data |> 
+  # filter(Movement == '/1/') |>
+  # filter(Piece = 'Op031_No1') >
+  group_by(Piece) |>
+  summarize(CrossEntropy = -mean(IC_4gram, na.rm = TRUE)) |>
+  with(barplot(CrossEntropy, names.arg = Piece))
+
+
+data |> group_by(Piece) |> summarize(KeyChange = 1 - mean(SameKey, na.rm=T)) |> with(barplot(KeyChange, names.arg=paste(Piece)))
+# Windows
+
+
+windows <- function(n, windowsize = 20, hop = 1) {
+  x <- rep(NA_real_, length(n))
+  for (i in 1:(length(n) - windowsize)) {
+    x[i] <- -mean(n[i:(i + windowsize - 1)], na.rm = TRUE)
+  }
+  
+  x
+  
+}
+
+data |> 
+mutate(Window = windows(IC_4gram)) -> datawindowed
+
+
+show <- function(piece, mvmnt = 1) {
+  piece <- unique(data$Piece)[piece]
+  mvmnt <- unique(data$Movement)[mvmnt]
+  cat(piece, ':', mvmnt,'\n')
+  
+  datawindowed |> 
+    filter(Piece == piece & Movement == mvmnt) |>
+    with({ 
+      plot(Window ~ Measure, main = piece,
+           sub = paste0('Movement ', mvmnt), type = 'l', axes =FALSE, xlab = 'Measure',
+           ylab = 'Cross Entropy')
+      axis(2, pretty(Window), tick = FALSE, las = 1)
+      axis(1, pretty(Measure), tick = FALSE, las = 1)
+      
+      sec <- getSections(Piece[1], Movement[1])
+      abline(v = sec$measure, lty='dashed')
+      print(sec)
+      })
+  
+}
+  
+  
+  
