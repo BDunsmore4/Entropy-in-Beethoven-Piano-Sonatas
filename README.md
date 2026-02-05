@@ -1,4 +1,4 @@
-**About**
+**Quantifying Harmonic Surprise**
 
 This little project effectively explores how typically Beethoven each of his sonatas are by measuring the cross entropy/surprise in each sonata against his entire entire sonata output. We also plotted the changing levels of entropy across the work so see where the most dramatic moments are. We only investigates the harmonic component of the work. 
 
