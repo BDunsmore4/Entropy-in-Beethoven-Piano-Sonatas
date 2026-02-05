@@ -1,0 +1,501 @@
+"","piece","measure","form"
+"1","Piano Sonata 4, Op.7, Movement 1",1,"Exposition"
+"2","Piano Sonata 4, Op.7, Movement 1",137,"Development"
+"3","Piano Sonata 4, Op.7, Movement 1",NA,"Recapitulation"
+"4","Piano Sonata 4, Op.7, Movement 1",313,"Coda"
+"5","Piano Sonata 5, Op.10 No.1, Movement 1",1,"Exposition"
+"6","Piano Sonata 5, Op.10 No.1, Movement 1",106,"Development"
+"7","Piano Sonata 5, Op.10 No.1, Movement 1",NA,"Recapitulation"
+"8","Piano Sonata 5, Op.10 No.1, Movement 1",271,"Coda"
+"9","Piano Sonata 6, Op.10 No.2, Movement 1",0,"Exposition"
+"10","Piano Sonata 6, Op.10 No.2, Movement 1",69,"Development"
+"11","Piano Sonata 6, Op.10 No.2, Movement 1",120,"Recapitulation"
+"12","Piano Sonata 7, Op.10 No.3, Movement 1",0,"Exposition"
+"13","Piano Sonata 7, Op.10 No.3, Movement 1",125,"Development"
+"14","Piano Sonata 7, Op.10 No.3, Movement 1",NA,"Recapitulation"
+"15","Piano Sonata 7, Op.10 No.3, Movement 1",299,"Coda"
+"16","Piano Sonata 8, Op.13(Pathetique), Movement 1",NA,"Exposition"
+"17","Piano Sonata 8, Op.13(Pathetique), Movement 1",NA,"Development"
+"18","Piano Sonata 8, Op.13(Pathetique), Movement 1",NA,"Recapitulation"
+"19","Piano Sonata 8, Op.13(Pathetique), Movement 1",295,"Coda"
+"20","Piano Sonata 9, Op.14 No.1, Movement 1",1,"Exposition"
+"21","Piano Sonata 9, Op.14 No.1, Movement 1",NA,"Development"
+"22","Piano Sonata 9, Op.14 No.1, Movement 1",NA,"Recapitulation"
+"23","Piano Sonata 9, Op.14 No.1, Movement 1",148,"Coda"
+"24",NA,41,"Trio"
+"25","Piano Sonata 10, Op.14 No.2, Movement 1",0,"Exposition"
+"26","Piano Sonata 10, Op.14 No.2, Movement 1",64,"Development"
+"27","Piano Sonata 10, Op.14 No.2, Movement 1",NA,"Recapitulation"
+"28","Piano Sonata 11, Op.22, Movement 1",0,"Exposition"
+"29","Piano Sonata 11, Op.22, Movement 1",69,"Development"
+"30","Piano Sonata 11, Op.22, Movement 1",NA,"Recapitulation"
+"31","Piano Sonata 12, Op.26, Movement 1",0,"Theme"
+"32","Piano Sonata 12, Op.26, Movement 1",NA,"Variation I"
+"33","Piano Sonata 12, Op.26, Movement 1",69,"Variation II"
+"34","Piano Sonata 12, Op.26, Movement 1",103,"Variation III"
+"35","Piano Sonata 12, Op.26, Movement 1",137,"Variation IV"
+"36","Piano Sonata 12, Op.26, Movement 1",171,"Variation V"
+"37","Piano Sonata 12, Op.26, Movement 1",206,"Coda"
+"38",NA,NA,"scherzo"
+"39",NA,68,"Trio"
+"40",NA,NA,"scherzo repeat follows"
+"41",NA,NA,"ABA "
+"42",NA,1,"A (rounded binary)"
+"43",NA,31,"B (16 bars, 4 + 4 + 4 + 4)"
+"44",NA,NA,"A"
+"45",NA,NA,"rondo"
+"46",NA,0,"Rondo A"
+"47",NA,29,"rondo B"
+"48",NA,NA,"rondo C"
+"49","Piano Sonata 13, Op.27 No.1, Movement 1",1,"A"
+"50","Piano Sonata 13, Op.27 No.1, Movement 1",37,"B"
+"51","Piano Sonata 13, Op.27 No.1, Movement 1",NA,"A"
+"52","Piano Sonata 13, Op.27 No.1, Movement 1",79,"Coda"
+"53",NA,NA,"scherzo/trio form"
+"54",NA,NA,"scherzo"
+"55",NA,NA,"trio"
+"56",NA,NA,"ABA, 8 + 8 + 8 + 2, rounded binary without repeats"
+"57",NA,1,"opening A"
+"58",NA,9,"middle B"
+"59",NA,NA,"closing A"
+"60",NA,25,"coda/transition to Eb"
+"61",NA,NA,"rondo"
+"62",NA,1,"rondo A"
+"63",NA,NA,"rondo B"
+"64",NA,NA,"rondo A"
+"65","Piano Sonata 14, Op.27 No.2(Moonlight), Movement 1",1,"Exposition"
+"66","Piano Sonata 14, Op.27 No.2(Moonlight), Movement 1",23,"Development"
+"67","Piano Sonata 14, Op.27 No.2(Moonlight), Movement 1",NA,"Recapitulation"
+"68","Piano Sonata 14, Op.27 No.2(Moonlight), Movement 1",60,"Coda"
+"69",NA,1,"sonata"
+"70",NA,15,"transition"
+"71",NA,21,"second theme"
+"72",NA,67,"development"
+"73",NA,NA,"recapitulation"
+"74",NA,NA,"coda"
+"75","Piano Sonata 15, Op.28(Pastorale), Movement 1",1,"Exposition"
+"76","Piano Sonata 15, Op.28(Pastorale), Movement 1",NA,"Development"
+"77","Piano Sonata 15, Op.28(Pastorale), Movement 1",NA,"Recapitulation"
+"78","Piano Sonata 15, Op.28(Pastorale), Movement 1",438,"Coda"
+"79",NA,NA,"piece is basically minuet-trio form, with two rounded binaries in ABA arrangement.  The repeat of the A is treated as a variation though."
+"80",NA,1,"rounded binary"
+"81",NA,71,"trio"
+"82",NA,NA,"scherzo"
+"83","Piano Sonata 16, Op.31 No.1, Movement 1",0,"Exposition"
+"84","Piano Sonata 16, Op.31 No.1, Movement 1",112,"Development"
+"85","Piano Sonata 16, Op.31 No.1, Movement 1",NA,"Recapitulation"
+"86","Piano Sonata 16, Op.31 No.1, Movement 1",280,"Coda"
+"87","Piano Sonata 2, Op.2 No.2, Movement 1",0,"Exposition"
+"88","Piano Sonata 2, Op.2 No.2, Movement 1",123,"Development"
+"89","Piano Sonata 2, Op.2 No.2, Movement 1",226,"Recapitulation"
+"90","Piano Sonata 17, Op.31 No.2, Movement 1",1,"Exposition"
+"91","Piano Sonata 17, Op.31 No.2, Movement 1",NA,"Development"
+"92","Piano Sonata 17, Op.31 No.2, Movement 1",143,"Recapitulation"
+"93","Piano Sonata 18, Op.31 No.3, Movement 1",1,"Exposition"
+"94","Piano Sonata 18, Op.31 No.3, Movement 1",89,"Development"
+"95","Piano Sonata 18, Op.31 No.3, Movement 1",NA,"Recapitulation"
+"96","Piano Sonata 18, Op.31 No.3, Movement 1",220,"Coda"
+"97","Piano Sonata 19, Op.49 No.1, Movement 1",0,"Exposition"
+"98","Piano Sonata 19, Op.49 No.1, Movement 1",34,"Development"
+"99","Piano Sonata 19, Op.49 No.1, Movement 1",NA,"Recapitulation"
+"100","Piano Sonata 19, Op.49 No.1, Movement 1",97,"Coda"
+"101",NA,NA,"Rondo"
+"102",NA,0,"Rondo A"
+"103",NA,NA,"Rondo B"
+"104",NA,NA,"Rondo A"
+"105",NA,97,"Rondo C? or transition to B'"
+"106",NA,104,"Rondo B"
+"107","Piano Sonata 20, Op.49 No.2, Movement 1",1,"Exposition"
+"108","Piano Sonata 20, Op.49 No.2, Movement 1",53,"Development"
+"109","Piano Sonata 20, Op.49 No.2, Movement 1",NA,"Recapitulation"
+"110","Piano Sonata 21, Op.53, Movement 1",1,"Exposition"
+"111","Piano Sonata 22, Op.54, Movement 1",0,"A"
+"112","Piano Sonata 22, Op.54, Movement 1",25,"B"
+"113","Piano Sonata 22, Op.54, Movement 1",NA,"A"
+"114","Piano Sonata 22, Op.54, Movement 1",94,"B"
+"115","Piano Sonata 22, Op.54, Movement 1",106,"A"
+"116","Piano Sonata 22, Op.54, Movement 1",137,"Coda"
+"117","Piano Sonata 23, Op.57(Appassionata), Movement 1",0,"Exposition"
+"118","Piano Sonata 23, Op.57(Appassionata), Movement 1",67,"Development"
+"119","Piano Sonata 23, Op.57(Appassionata), Movement 1",136,"Recapitulation"
+"120","Piano Sonata 23, Op.57(Appassionata), Movement 1",203,"Coda"
+"121","Piano Sonata 24, Op.78, Movement 1",1,"Introduction"
+"122","Piano Sonata 24, Op.78, Movement 1",5,"Exposition"
+"123","Piano Sonata 24, Op.78, Movement 1",NA,"Development"
+"124","Piano Sonata 24, Op.78, Movement 1",NA,"Recapitulation"
+"125","Piano Sonata 25, Op.79(Sonatina), Movement 1",1,"Exposition"
+"126","Piano Sonata 25, Op.79(Sonatina), Movement 1",NA,"Development"
+"127","Piano Sonata 25, Op.79(Sonatina), Movement 1",NA,"Recapitulation"
+"128","Piano Sonata 25, Op.79(Sonatina), Movement 1",176,"Coda"
+"129","Piano Sonata 26, Op.81a(Les Adieux), Movement 1",1,"Introduction"
+"130","Piano Sonata 26, Op.81a(Les Adieux), Movement 1",NA,"Exposition"
+"131","Piano Sonata 26, Op.81a(Les Adieux), Movement 1",NA,"Development"
+"132","Piano Sonata 26, Op.81a(Les Adieux), Movement 1",NA,"Recapitulation"
+"133","Piano Sonata 27, Op.90, Movement 1",0,"Exposition"
+"134","Piano Sonata 27, Op.90, Movement 1",85,"Development"
+"135","Piano Sonata 27, Op.90, Movement 1",NA,"Recapitulation"
+"136","Piano Sonata 27, Op.90, Movement 1",222,"Coda"
+"137","Piano Sonata 28, Op.101, Movement 1",1,"Exposition"
+"138","Piano Sonata 29, Op.106(Hammerklavier), Movement 1",0,"Exposition"
+"139","Piano Sonata 29, Op.106(Hammerklavier), Movement 1",NA,"Development"
+"140","Piano Sonata 29, Op.106(Hammerklavier), Movement 1",227,"Recapitulation"
+"141","Piano Sonata 29, Op.106(Hammerklavier), Movement 1",362,"Coda"
+"142","Piano Sonata 30, Op.109, Movement 1",0,"Exposition"
+"143","Piano Sonata 30, Op.109, Movement 1",16,"Development"
+"144","Piano Sonata 30, Op.109, Movement 1",49,"Recapitulation"
+"145","Piano Sonata 30, Op.109, Movement 1",67,"Coda"
+"146","Piano Sonata 31, Op.110, Movement 1",1,"Exposition"
+"147","Piano Sonata 32, Op.111, Movement 1",0,"Introduction"
+"148","Piano Sonata 32, Op.111, Movement 1",21,"Exposition"
+"149","Piano Sonata 32, Op.111, Movement 1",70,"Development"
+"150","Piano Sonata 32, Op.111, Movement 1",92,"Recapitulation"
+"151","Piano Sonata 32, Op.111, Movement 1",132,"Coda"
+"152","Piano Sonata 3, Op.2 No.3, Movement 1",1,"Exposition"
+"153","Piano Sonata 3, Op.2 No.3, Movement 1",NA,"Development"
+"154","Piano Sonata 1, Op.2 No.1, Movement 1",0,"Exposition"
+"155","Piano Sonata 1, Op.2 No.1, Movement 1",49,"Development"
+"156","Piano Sonata 1, Op.2 No.1, Movement 1",NA,"Recapitulation"
+"157","op. 2 no. 1",0,"exposition"
+"158","op. 2 no. 1",49,"development"
+"159","op. 2 no. 1",101,"recapitulation"
+"160",NA,0,NA
+"161",NA,0,NA
+"162",NA,0,NA
+"163",NA,0,NA
+"164",NA,0,NA
+"165",NA,0,NA
+"166",NA,0,NA
+"167",NA,0,NA
+"168",NA,0,NA
+"169",NA,0,NA
+"170",NA,0,NA
+"171",NA,0,NA
+"172",NA,0,NA
+"173",NA,0,NA
+"174",NA,0,NA
+"175",NA,0,NA
+"176",NA,0,NA
+"177",NA,0,NA
+"178",NA,0,NA
+"179",NA,0,NA
+"180",NA,0,NA
+"181",NA,0,NA
+"182",NA,0,NA
+"183",NA,0,NA
+"184",NA,0,NA
+"185",NA,0,NA
+"186",NA,0,NA
+"187",NA,0,NA
+"188",NA,0,NA
+"189",NA,0,NA
+"190",NA,0,NA
+"191",NA,0,NA
+"192",NA,0,NA
+"193",NA,0,NA
+"194",NA,0,NA
+"195",NA,0,NA
+"196",NA,0,NA
+"197",NA,0,NA
+"198",NA,0,NA
+"199",NA,0,NA
+"200",NA,0,NA
+"201",NA,0,NA
+"202",NA,0,NA
+"203",NA,0,NA
+"204",NA,0,NA
+"205",NA,0,NA
+"206",NA,0,NA
+"207",NA,0,NA
+"208",NA,0,NA
+"209",NA,0,NA
+"210",NA,0,NA
+"211",NA,0,NA
+"212",NA,0,NA
+"213",NA,0,NA
+"214",NA,0,NA
+"215",NA,0,NA
+"216",NA,0,NA
+"217",NA,0,NA
+"218",NA,0,NA
+"219",NA,0,NA
+"220",NA,0,NA
+"221",NA,0,NA
+"222",NA,0,NA
+"223",NA,0,NA
+"224",NA,0,NA
+"225",NA,0,NA
+"226",NA,0,NA
+"227",NA,0,NA
+"228",NA,0,NA
+"229",NA,0,NA
+"230",NA,0,NA
+"231",NA,0,NA
+"232",NA,0,NA
+"233",NA,0,NA
+"234",NA,0,NA
+"235",NA,0,NA
+"236",NA,0,NA
+"237",NA,0,NA
+"238",NA,0,NA
+"239",NA,0,NA
+"240",NA,0,NA
+"241",NA,0,NA
+"242",NA,0,NA
+"243",NA,0,NA
+"244",NA,0,NA
+"245",NA,0,NA
+"246",NA,0,NA
+"247",NA,0,NA
+"248",NA,0,NA
+"249",NA,0,NA
+"250",NA,0,NA
+"251",NA,0,NA
+"252",NA,0,NA
+"253",NA,0,NA
+"254",NA,0,NA
+"255",NA,0,NA
+"256",NA,0,NA
+"257",NA,0,NA
+"258",NA,0,NA
+"259",NA,0,NA
+"260",NA,0,NA
+"261",NA,0,NA
+"262",NA,0,NA
+"263",NA,0,NA
+"264",NA,0,NA
+"265",NA,0,NA
+"266",NA,0,NA
+"267",NA,0,NA
+"268",NA,0,NA
+"269",NA,0,NA
+"270",NA,0,NA
+"271",NA,0,NA
+"272",NA,0,NA
+"273",NA,0,NA
+"274",NA,0,NA
+"275",NA,0,NA
+"276",NA,0,NA
+"277",NA,0,NA
+"278",NA,0,NA
+"279",NA,0,NA
+"280",NA,0,NA
+"281",NA,0,NA
+"282",NA,0,NA
+"283",NA,0,NA
+"284",NA,0,NA
+"285",NA,0,NA
+"286",NA,0,NA
+"287",NA,0,NA
+"288",NA,0,NA
+"289",NA,0,NA
+"290",NA,0,NA
+"291",NA,0,NA
+"292",NA,0,NA
+"293",NA,0,NA
+"294",NA,0,NA
+"295",NA,0,NA
+"296",NA,0,NA
+"297",NA,0,NA
+"298",NA,0,NA
+"299",NA,0,NA
+"300",NA,0,NA
+"301",NA,0,NA
+"302",NA,0,NA
+"303",NA,0,NA
+"304",NA,0,NA
+"305",NA,0,NA
+"306",NA,0,NA
+"307",NA,0,NA
+"308",NA,0,NA
+"309",NA,0,NA
+"310",NA,0,NA
+"311",NA,0,NA
+"312",NA,0,NA
+"313",NA,0,NA
+"314",NA,0,NA
+"315",NA,0,NA
+"316",NA,0,NA
+"317",NA,0,NA
+"318",NA,0,NA
+"319",NA,0,NA
+"320",NA,0,NA
+"321",NA,0,NA
+"322",NA,0,NA
+"323",NA,0,NA
+"324",NA,0,NA
+"325",NA,0,NA
+"326",NA,0,NA
+"327",NA,0,NA
+"328",NA,0,NA
+"329",NA,0,NA
+"330",NA,0,NA
+"331",NA,0,NA
+"332",NA,0,NA
+"333",NA,0,NA
+"334",NA,0,NA
+"335",NA,0,NA
+"336",NA,0,NA
+"337",NA,0,NA
+"338",NA,0,NA
+"339",NA,0,NA
+"340",NA,0,NA
+"341",NA,0,NA
+"342",NA,0,NA
+"343",NA,0,NA
+"344",NA,0,NA
+"345",NA,0,NA
+"346",NA,0,NA
+"347",NA,0,NA
+"348",NA,0,NA
+"349",NA,0,NA
+"350",NA,0,NA
+"351",NA,0,NA
+"352",NA,0,NA
+"353",NA,0,NA
+"354",NA,0,NA
+"355",NA,0,NA
+"356",NA,0,NA
+"357",NA,0,NA
+"358",NA,0,NA
+"359",NA,0,NA
+"360",NA,0,NA
+"361",NA,0,NA
+"362",NA,0,NA
+"363",NA,0,NA
+"364",NA,0,NA
+"365",NA,0,NA
+"366",NA,0,NA
+"367",NA,0,NA
+"368",NA,0,NA
+"369",NA,0,NA
+"370",NA,0,NA
+"371",NA,0,NA
+"372",NA,0,NA
+"373",NA,0,NA
+"374",NA,0,NA
+"375",NA,0,NA
+"376",NA,0,NA
+"377",NA,0,NA
+"378",NA,0,NA
+"379",NA,0,NA
+"380",NA,0,NA
+"381",NA,0,NA
+"382",NA,0,NA
+"383",NA,0,NA
+"384",NA,0,NA
+"385",NA,0,NA
+"386",NA,0,NA
+"387",NA,0,NA
+"388",NA,0,NA
+"389",NA,0,NA
+"390",NA,0,NA
+"391",NA,0,NA
+"392",NA,0,NA
+"393",NA,0,NA
+"394",NA,0,NA
+"395",NA,0,NA
+"396",NA,0,NA
+"397",NA,0,NA
+"398",NA,0,NA
+"399",NA,0,NA
+"400",NA,0,NA
+"401",NA,0,NA
+"402",NA,0,NA
+"403",NA,0,NA
+"404",NA,0,NA
+"405",NA,0,NA
+"406",NA,0,NA
+"407",NA,0,NA
+"408",NA,0,NA
+"409",NA,0,NA
+"410",NA,0,NA
+"411",NA,0,NA
+"412",NA,0,NA
+"413",NA,0,NA
+"414",NA,0,NA
+"415",NA,0,NA
+"416",NA,0,NA
+"417",NA,0,NA
+"418",NA,0,NA
+"419",NA,0,NA
+"420",NA,0,NA
+"421",NA,0,NA
+"422",NA,0,NA
+"423",NA,0,NA
+"424",NA,0,NA
+"425",NA,0,NA
+"426",NA,0,NA
+"427",NA,0,NA
+"428",NA,0,NA
+"429",NA,0,NA
+"430",NA,0,NA
+"431",NA,0,NA
+"432",NA,0,NA
+"433",NA,0,NA
+"434",NA,0,NA
+"435",NA,0,NA
+"436",NA,0,NA
+"437",NA,0,NA
+"438",NA,0,NA
+"439",NA,0,NA
+"440",NA,0,NA
+"441",NA,0,NA
+"442",NA,0,NA
+"443",NA,0,NA
+"444",NA,0,NA
+"445",NA,0,NA
+"446",NA,0,NA
+"447",NA,0,NA
+"448",NA,0,NA
+"449",NA,0,NA
+"450",NA,0,NA
+"451",NA,0,NA
+"452",NA,0,NA
+"453",NA,0,NA
+"454",NA,0,NA
+"455",NA,0,NA
+"456",NA,0,NA
+"457",NA,0,NA
+"458",NA,0,NA
+"459",NA,0,NA
+"460",NA,0,NA
+"461",NA,0,NA
+"462",NA,0,NA
+"463",NA,0,NA
+"464",NA,0,NA
+"465",NA,0,NA
+"466",NA,0,NA
+"467",NA,0,NA
+"468",NA,0,NA
+"469",NA,0,NA
+"470",NA,0,NA
+"471",NA,0,NA
+"472",NA,0,NA
+"473",NA,0,NA
+"474",NA,0,NA
+"475",NA,0,NA
+"476",NA,0,NA
+"477",NA,0,NA
+"478",NA,0,NA
+"479",NA,0,NA
+"480",NA,0,NA
+"481",NA,0,NA
+"482",NA,0,NA
+"483",NA,0,NA
+"484",NA,0,NA
+"485",NA,0,NA
+"486",NA,0,NA
+"487",NA,0,NA
+"488",NA,0,NA
+"489",NA,0,NA
+"490",NA,0,NA
+"491",NA,0,NA
+"492",NA,0,NA
+"493",NA,0,NA
+"494",NA,0,NA
+"495",NA,0,NA
+"496",NA,0,NA
+"497",NA,0,NA
+"498",NA,0,NA
+"499",NA,0,NA
+"500",NA,0,NA
